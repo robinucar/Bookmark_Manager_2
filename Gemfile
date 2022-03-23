@@ -5,10 +5,12 @@ source "https://rubygems.org"
 # gem "rails"
 
 gem 'sinatra'
-gem 'sinatra-contrib'
-gem 'rspec'
 gem 'capybara'
-
-group :development, :test do
-    gem "rubocop", "1.20"
-end
+gem 'rspec'
+gem 'sinatra-contrib'
+gem 'webrick'
+gem 'simplecov'
+gem 'simplecov-console'
+gem 'launchy'
+gem 'rubocop'
+gem 'pg'
